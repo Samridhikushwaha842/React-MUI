@@ -93,11 +93,11 @@ export default function BoxSystemProps() {
           padding: '20px'
         }}
       >
-        <img
+        {/* <img
           src="/logo/.png" // Update this path to your actual logo location
           alt="ZedGoo Logo"
           style={{ maxWidth: '100%', maxHeight: '100%' }}
-        />
+        /> */}
       </Stack>
     </Stack>
   );
