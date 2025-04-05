@@ -67,9 +67,12 @@ export default function BoxSystemProps() {
             required // Ensure field is not empty
           /><br />  
 
-          <FormLabel>
-            <a href="#" style={{ textDecoration: 'none'}}>Forgot your password?</a>
-          </FormLabel><br />
+<FormLabel>
+  <span style={{ textDecoration: 'underline', color: 'blue', cursor: 'pointer' }}>
+    Forgot your password?
+  </span>
+</FormLabel><br />
+
 
           <Button
             type="submit"
