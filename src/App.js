@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import SignIn from './Views/SignIn';       
-//import Dashboard2 from './Views/Dashboard2';
+import Dashboard2 from './Views/Dashboard2';
 import Dashboard from './Views/Dashboard';
 
 
@@ -30,8 +30,8 @@ function App() {
         <>
           <Routes >
              <Route path="/" element={<SignIn />} /> 
-            {/* <Route path='/' element= {<Dashboard2/>} /> */}
-            {/* <Route path="/" element={<Dashboard />} /> */}
+            <Route path='/' element= {<Dashboard2/>} />
+            <Route path="/" element={<Dashboard />} />
           </Routes>
         </>
       </BrowserRouter>
